@@ -41,13 +41,13 @@
     //顶点数据，前三个是顶点坐标，后面两个是纹理坐标
     GLfloat vertexData[] =
     {
-        0.5, -0.5, 0.0f,    1.0f, 0.0f, //右下
-        0.5, 0.5, -0.0f,    1.0f, 1.0f, //右上
-        -0.5, 0.5, 0.0f,    0.0f, 1.0f, //左上
+        0.5, -0.4, 0.0f,    1.0f, 0.0f, //右下
+        0.5, 0.4, -0.0f,    1.0f, 1.0f, //右上
+        -0.5, 0.4, 0.0f,    0.0f, 1.0f, //左上
         
-        0.5, -0.5, 0.0f,    1.0f, 0.0f, //右下
-        -0.5, 0.5, 0.0f,    0.0f, 1.0f, //左上
-        -0.5, -0.5, 0.0f,   0.0f, 0.0f, //左下
+        0.5, -0.4, 0.0f,    1.0f, 0.0f, //右下
+        -0.5, 0.4, 0.0f,    0.0f, 1.0f, //左上
+        -0.5, -0.4, 0.0f,   0.0f, 0.0f, //左下
     };
     
     
@@ -79,7 +79,7 @@
 
 - (void)uploadTexture {
     //纹理贴图
-    NSString* filePath = [[NSBundle mainBundle] pathForResource:@"for_test" ofType:@"jpg"];
+    NSString* filePath = [[NSBundle mainBundle] pathForResource:@"opengl_test" ofType:@"png"];
     NSDictionary* options = [NSDictionary dictionaryWithObjectsAndKeys:@(1), GLKTextureLoaderOriginBottomLeft, nil];//GLKTextureLoaderOriginBottomLeft 纹理坐标系是相反的
     GLKTextureInfo* textureInfo = [GLKTextureLoader textureWithContentsOfFile:filePath options:options error:nil];
     //着色器

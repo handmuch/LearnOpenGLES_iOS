@@ -16,7 +16,6 @@
 		D724C5BB205288D8001D02A4 /* PK_LearnOpenGLES_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D724C5BA205288D8001D02A4 /* PK_LearnOpenGLES_1Tests.m */; };
 		D724C5C6205288D9001D02A4 /* PK_LearnOpenGLES_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D724C5C5205288D9001D02A4 /* PK_LearnOpenGLES_1UITests.m */; };
 		D724C5D420650583001D02A4 /* opengl_test.png in Resources */ = {isa = PBXBuildFile; fileRef = D724C5D320650581001D02A4 /* opengl_test.png */; };
-		D724C5D620650AC8001D02A4 /* for_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D724C5D520650AC7001D02A4 /* for_test.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		D724C5C5205288D9001D02A4 /* PK_LearnOpenGLES_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PK_LearnOpenGLES_1UITests.m; sourceTree = "<group>"; };
 		D724C5C7205288D9001D02A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D724C5D320650581001D02A4 /* opengl_test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opengl_test.png; sourceTree = "<group>"; };
-		D724C5D520650AC7001D02A4 /* for_test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = for_test.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +109,6 @@
 				D724C5A5205288D8001D02A4 /* ViewController.m */,
 				D724C5A7205288D8001D02A4 /* Main.storyboard */,
 				D724C5D320650581001D02A4 /* opengl_test.png */,
-				D724C5D520650AC7001D02A4 /* for_test.jpg */,
 				D724C5AA205288D8001D02A4 /* Assets.xcassets */,
 				D724C5AC205288D8001D02A4 /* LaunchScreen.storyboard */,
 				D724C5AF205288D8001D02A4 /* Info.plist */,
@@ -245,7 +242,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D724C5AE205288D8001D02A4 /* LaunchScreen.storyboard in Resources */,
-				D724C5D620650AC8001D02A4 /* for_test.jpg in Resources */,
 				D724C5D420650583001D02A4 /* opengl_test.png in Resources */,
 				D724C5AB205288D8001D02A4 /* Assets.xcassets in Resources */,
 				D724C5A9205288D8001D02A4 /* Main.storyboard in Resources */,
